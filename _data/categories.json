@@ -1,8 +1,4 @@
 [
-  {
-    "slug": "lifestyle",
-    "name": "Lifestyle",
-    "questions": [
       {
         "slug": "friends",
         "name": "Highlights",
@@ -261,5 +257,3 @@
         ]
       } 
     ]
-  }
-]
