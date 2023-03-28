@@ -5,7 +5,7 @@
     "questions": [
       {
         "slug": "friends",
-        "name": "Social Circle",
+        "name": "Highlights",
         "text": "Would you describe your social circle as a friend group or a collection of individual friends?",
         "broken_down_by": [
           {
@@ -32,7 +32,7 @@
       },
       {
         "slug": "sleep",
-        "name": "Sleep",
+        "name": "Acceptance Rate",
         "text": "How many hours of sleep do you get a night on average?",
         "broken_down_by": [
           {
@@ -65,7 +65,7 @@
       },
       {
         "slug": "COVID-19",
-        "name": "COVID-19",
+        "name": "Test Scores",
         "text": "Have you tested positive for COVID-19 in the past six months?",
         "broken_down_by": [
           {
@@ -88,7 +88,7 @@
       },
       {
         "slug": "ndr",
-        "name": "Naked Donut Run",
+        "name": "Dual-Degree Programs",
         "text": "Have you or would you participate in the Naked Donut Run?",
         "broken_down_by": [
           {
@@ -114,7 +114,152 @@
             "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
           }
         ]
-      }
+      },
+      {
+        "slug": "ndr",
+        "name": "Gender",
+        "text": "Have you or would you participate in the Naked Donut Run?",
+        "broken_down_by": [
+          {
+            "slug": "total",
+            "name": "Total",
+            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
+            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+          },
+          {
+            "slug": "by_class-year",
+            "name": "Class Year",
+            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+          },
+          {
+            "slug": "by_financial-aid",
+            "name": "Financial Aid",
+            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+          },
+          {
+            "slug": "by_gender",
+            "name": "Gender Identity",
+            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
+            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+          }
+        ]
+      },
+      {
+        "slug": "ndr",
+        "name": "Areas of Study",
+        "text": "Have you or would you participate in the Naked Donut Run?",
+        "broken_down_by": [
+          {
+            "slug": "total",
+            "name": "Total",
+            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
+            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+          },
+          {
+            "slug": "by_class-year",
+            "name": "Class Year",
+            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+          },
+          {
+            "slug": "by_financial-aid",
+            "name": "Financial Aid",
+            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+          },
+          {
+            "slug": "by_gender",
+            "name": "Gender Identity",
+            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
+            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+          }
+        ]
+      },
+      {
+        "slug": "ndr",
+        "name": "Geography",
+        "text": "Have you or would you participate in the Naked Donut Run?",
+        "broken_down_by": [
+          {
+            "slug": "total",
+            "name": "Total",
+            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
+            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+          },
+          {
+            "slug": "by_class-year",
+            "name": "Class Year",
+            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+          },
+          {
+            "slug": "by_financial-aid",
+            "name": "Financial Aid",
+            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+          },
+          {
+            "slug": "by_gender",
+            "name": "Gender Identity",
+            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
+            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+          }
+        ]
+      },
+      {
+        "slug": "ndr",
+        "name": "First-Generation",
+        "text": "Have you or would you participate in the Naked Donut Run?",
+        "broken_down_by": [
+          {
+            "slug": "total",
+            "name": "Total",
+            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
+            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+          },
+          {
+            "slug": "by_class-year",
+            "name": "Class Year",
+            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+          },
+          {
+            "slug": "by_financial-aid",
+            "name": "Financial Aid",
+            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+          },
+          {
+            "slug": "by_gender",
+            "name": "Gender Identity",
+            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
+            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+          }
+        ]
+      },
+      {
+        "slug": "ndr",
+        "name": "Financial Aid",
+        "text": "Have you or would you participate in the Naked Donut Run?",
+        "broken_down_by": [
+          {
+            "slug": "total",
+            "name": "Total",
+            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
+            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+          },
+          {
+            "slug": "by_class-year",
+            "name": "Class Year",
+            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+          },
+          {
+            "slug": "by_financial-aid",
+            "name": "Financial Aid",
+            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+          },
+          {
+            "slug": "by_gender",
+            "name": "Gender Identity",
+            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
+            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+          }
+        ]
+      } 
     ]
   }
 ]
