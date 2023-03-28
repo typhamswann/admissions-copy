@@ -196,14 +196,18 @@ div.home > div.panel > a > div  {
     align-items: center;
     justify-content: space-between;
     height: var(--navbar-height);
+    visibility: none;
+
 }
 
 #nav-options li {
     list-style-type: none;
     text-align: center;
+    visibility: none;
 }
 
 .nav-option {
+    visibility: none;
     padding: 0 1em;
     display: flex;
     align-items: center;
@@ -218,10 +222,13 @@ div.home > div.panel > a > div  {
 
 #nav-options a {
    color: black;
+   visibility: none;
+
 }
 
 #nav-options .active {
     border-bottom: 0.2rem solid var(--navbar-active-color);
+    visibility: hidden;
 }
 
 .section-wrapper {
