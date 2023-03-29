@@ -35,41 +35,32 @@
     <section class="section-wrapper"> 
 
         <div class="question-categories-wrapper">
-            <div class="question-categories"><button data-target="highlights" id='highlights'>Highlights</button><button data-target="acceptance" id='acceptance'>Acceptance Rate</button><button data-target="COVID-19" id='COVID-19'>Test Scores</button><button data-target="ndr" id='ndr'>Dual-Degree Programs</button><button data-target="ndr" id='ndr'>Gender</button><button data-target="ndr" id='ndr'>Areas of Study</button><button data-target="ndr" id='ndr'>Geography</button><button data-target="ndr" id='ndr'>First-Generation</button><button data-target="ndr" id='ndr'>Financial Aid</button></div>
+            <div class="question-categories"><button class='Acceptance Rate Over Time' data-target="highlights" id='highlights'>Highlights</button><button class='Applications Over Time' data-target="acceptance" id='acceptance'>Acceptance Rate</button><button class='Average SAT/ACT Test Scores of Admitted Applicants Over Time' data-target="test_scores" id='test_scores'>Test Scores</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Dual-Degree Programs</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Gender</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Areas of Study</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Geography</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>First-Generation</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Financial Aid</button></div>
         </div>
         <div class="main-content-wrapper">
             <div class="question-text"><div class="question-highlights-text" style="display: none;">
                         <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
                     </div><div class="question-acceptance-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
-                    </div><div class="question-COVID-19-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Applications Over Time</h1>
+                    </div><div class="question-test_scores-text" style="display: none;">
+                        <h1 class="graph-title">Average SAT/ACT Test Scores of Admitted Applicants Over Time</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div></div>
             <div class="subdiv-graph-wrapper">
                 <div class="question-subdivisions"><div class="question-highlights-subdivisions" style="display: none;">
                         <h2 id="breakdown-header">Breakdown</h2><button id="acceptance_rate" class="Acceptance Rate Over Time">Acceptance Rate</button>
-                            <button id="applicants_vs_admitted" class="Applicants Over Time">Applications</button>
+                            <button id="applicants_vs_admitted" class="Applications Over Time">Applications</button>
                             <button id="SAT_ACT" class="Average SAT/ACT Test Scores of Admitted Applicants Over Time">SAT/ACT Scores</button>
                             <button id="gender_acceptance" class="Acceptance Rate By Gender Over Time">Gender</button>
                             <button id="intended_concentration" class="Intended Concentrations of Admitted Applicants Over Time">Concentration</button>
@@ -78,15 +69,15 @@
                             
                         </div>
                     <div class="question-acceptance-subdivisions" style="display: none;">
-                        <h2 id="breakdown-header">Breakdown</h2><button id="applicants_vs_admitted" class="">Applicants</button>
-                            <button id="by_class-year" class="">Class Year</button>
-                            <button id="by_financial-aid" class="">Financial Aid</button>
-                            <button id="by_first-generation" class="">First-Generation</button>
-                            <button id="by_varsity" class="">Varsity</button>
+                        <h2 id="breakdown-header">Breakdown</h2><button id="admit_pie" class=" Application Outcomes for the Class of 2027">Total</button>
+                            <button id="admitted_rate" class="Regular Decision, Early Decision, and Overall Acceptance Rate for the Class of 2027">Early vs. Regular</button>
+                            <button id="admitted_bar" class="ED v. RD Acceptances - Over Time">ED vs. RD Over Time</button>
+                            <button id="applicants_vs_admitted" class="Applications Over Time">Applications</button>
+                            <button id="acceptance_rate" class="Acceptance Rate Over Time">Acceptance Rates</button>
                             
                         </div>
-                    <div class="question-COVID-19-subdivisions" style="display: none;">
-                        <h2 id="breakdown-header">Breakdown</h2><button id="total" class="">Total</button>
+                    <div class="question-test_scores-subdivisions" style="display: none;">
+                        <h2 id="breakdown-header">Breakdown</h2><button id="SAT_ACT" class="Average SAT/ACT Test Scores of Admitted Applicants Over Time">SAT/ACT Scores</button>
                             <button id="social_circle" class="">Social Circle</button>
                             <button id="class_year" class="">Class Year</button>
                             
@@ -197,72 +188,68 @@
                         
                     
                         
+                            <div class="image-acceptance-admit_pie" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13172802"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-acceptance-admit_pie" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
+                                
+                            </div>
+                        
+                            <div class="image-acceptance-admitted_rate" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13173640"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-acceptance-admitted_rate" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
+                                
+                            </div>
+                        
+                            <div class="image-acceptance-admitted_bar" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13159021"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-acceptance-admitted_bar" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
+                                
+                            </div>
+                        
                             <div class="image-acceptance-applicants_vs_admitted" style="display: none;">
                                 <div class="flourish-embed flourish-chart" data-src="visualisation/13157918"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
                             <div class="blurb-acceptance-applicants_vs_admitted" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
-                                    <p class="subdivision-blurbs">A plurality of respondents reported getting seven hours of sleep a night on average.</p>
-                                
                             </div>
                         
-                            <div class="image-acceptance-by_class-year" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/CquY8/3/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-acceptance-acceptance_rate" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13158845"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-acceptance-by_class-year" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                            </div>
-                        
-                            <div class="image-acceptance-by_financial-aid" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/xme4U/3/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-acceptance-by_financial-aid" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                            </div>
-                        
-                            <div class="image-acceptance-by_first-generation" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/6fOIq/4/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-acceptance-by_first-generation" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                            </div>
-                        
-                            <div class="image-acceptance-by_varsity" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/OHh3N/6/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-acceptance-by_varsity" style="display: none;">
+                            <div class="blurb-acceptance-acceptance_rate" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
                     
                         
-                            <div class="image-COVID-19-total" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/6Vzfv/2/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-test_scores-SAT_ACT" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13159133"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-COVID-19-total" style="display: none;">
+                            <div class="blurb-test_scores-SAT_ACT" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                                    <p class="subdivision-blurbs">The majority of respondents to the poll — 83.7% — have not tested positive for COVID-19 in the past six months. In fall 2022, over two-thirds of respondents reported being “not” or “slightly” concerned about the spread of COVID-19 on campus, which represented a slight decrease in COVID-19 concern from spring 2022. </p>
                                 
                             </div>
                         
-                            <div class="image-COVID-19-social_circle" style="display: none;">
+                            <div class="image-test_scores-social_circle" style="display: none;">
                                 <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/9I2oR/4/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-COVID-19-social_circle" style="display: none;">
+                            <div class="blurb-test_scores-social_circle" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-COVID-19-class_year" style="display: none;">
+                            <div class="image-test_scores-class_year" style="display: none;">
                                 <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/TMyAY/7/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-COVID-19-class_year" style="display: none;">
+                            <div class="blurb-test_scores-class_year" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
@@ -570,6 +557,8 @@
     }
     handleButtonClick = (button) => {
         selectedButton = button.id;
+        selectName = button.className;
+        console.log(button.className)
         buttons.forEach((b) => b.classList.remove('selected'));
         textSections.forEach((section) => section.style.display = 'none');
         subSections.forEach((section) => section.style.display = 'none');
@@ -582,6 +571,7 @@
         subButtons[0].classList.add('selected');
         selectedSubButton = subButtons[0].id;
         updateImage()
+        updateText(selectName)
     }
 handleSubButtonClick = (button) => {
     selectedSubButton = button.id;
@@ -589,7 +579,6 @@ handleSubButtonClick = (button) => {
     subButtons.forEach((b) => b.classList.remove('selected'));
     button.classList.add('selected');
     updateImage();
-    console.log(selectedName)
     updateText(selectedName)
 }
 
@@ -606,8 +595,10 @@ handleSubButtonClick = (button) => {
     }
 
     updateText = (title) => {
-        const graphTitle = document.querySelector('.graph-title');
-        graphTitle.innerHTML = title
+        const graphTitles = document.getElementsByClassName('graph-title');
+        for (let i=0; i<graphTitles.length; i++){
+                graphTitles[i].innerHTML = title.replace("selected", "")
+        }
     }
 
 

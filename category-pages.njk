@@ -41,7 +41,7 @@ relative_prefix: ".."
         <div class="question-categories-wrapper">
             <div class="question-categories">
                 {%- for question in category.questions -%}
-                    <button data-target="{{ question.slug }}" id='{{ question.slug }}'>{{ question.name }}</button>
+                    <button class='{{ question.text }}' data-target="{{ question.slug }}" id='{{ question.slug }}'>{{ question.name }}</button>
                 {%- endfor -%}
             </div>
         </div>
@@ -49,8 +49,7 @@ relative_prefix: ".."
             <div class="question-text">
                 {%- for question in category.questions -%}
                     <div class="question-{{ question.slug }}-text" style="display: none;">
-                        <h1 class="graph-title">Acceptance Rate Over Time</h1>
-
+                        <h1 class="graph-title">{{ question.text }}</h1>
                     </div>
                 {%- endfor -%}
             </div>
@@ -154,6 +153,8 @@ relative_prefix: ".."
     }
     handleButtonClick = (button) => {
         selectedButton = button.id;
+        selectName = button.className;
+        console.log(button.className)
         buttons.forEach((b) => b.classList.remove('selected'));
         textSections.forEach((section) => section.style.display = 'none');
         subSections.forEach((section) => section.style.display = 'none');
@@ -166,6 +167,7 @@ relative_prefix: ".."
         subButtons[0].classList.add('selected');
         selectedSubButton = subButtons[0].id;
         updateImage()
+        updateText(selectName)
     }
 handleSubButtonClick = (button) => {
     selectedSubButton = button.id;
@@ -173,7 +175,6 @@ handleSubButtonClick = (button) => {
     subButtons.forEach((b) => b.classList.remove('selected'));
     button.classList.add('selected');
     updateImage();
-    console.log(selectedName)
     updateText(selectedName)
 }
 
@@ -190,8 +191,10 @@ handleSubButtonClick = (button) => {
     }
 
     updateText = (title) => {
-        const graphTitle = document.querySelector('.graph-title');
-        graphTitle.innerHTML = title
+        const graphTitles = document.getElementsByClassName('graph-title');
+        for (let i=0; i<graphTitles.length; i++){
+                graphTitles[i].innerHTML = title.replace("selected", "")
+        }
     }
 
 

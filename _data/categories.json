@@ -6,7 +6,7 @@
       {
         "slug": "highlights",
         "name": "Highlights",
-        "text": "Acceptance Rate",
+        "text": "Acceptance Rate Over Time",
         "broken_down_by": [
           {
             "slug": "acceptance_rate",
@@ -58,86 +58,85 @@
         "text": "Applications Over Time",
         "broken_down_by": [
           {
+            "slug": "admit_pie",
+            "name": "Total",
+            "link": "visualisation/13172802",
+            "title":" Application Outcomes for the Class of 2027"
+          },
+          {
+            "slug": "admitted_rate",
+            "name": "Early vs. Regular",
+            "link": "visualisation/13173640",
+            "title":"Regular Decision, Early Decision, and Overall Acceptance Rate for the Class of 2027"
+          },
+          {
+            "slug": "admitted_bar",
+            "name": "ED vs. RD Over Time",
+            "link": "visualisation/13159021",
+            "title":"ED v. RD Acceptances - Over Time"
+          },
+          {
             "slug": "applicants_vs_admitted",
-            "name": "Applicants",
+            "name": "Applications",
             "link": "visualisation/13157918",
             "title": "Applications Over Time"
           },
           {
             "slug": "acceptance_rate",
-            "name": "Total",
+            "name": "Acceptance Rates",
             "link": "visualisation/13158845",
             "title": "Acceptance Rate Over Time"
-          },
-          {
-            "slug": "admitted_bar",
-            "name": "RD vs. ED (I)",
-            "link": "visualisation/13159021",
-            "title":"ED v. RD Acceptances - Over Time"
-          },
-          {
-            "slug": "admitted_rate",
-            "name": "RD vs. ED (II)",
-            "link": "visualisation/13173640",
-            "title":"Regular Decision, Early Decision, and Overall Acceptance Rate for the Class of 2027"
-          },
-          {
-            "slug": "admit_pie",
-            "name": "RD vs. ED (III)",
-            "link": "visualisation/13172802",
-            "title":" Application Outcomes for the Class of 2027"
           }
         ]
       },
       {
-        "slug": "COVID-19",
+        "slug": "test_scores",
         "name": "Test Scores",
-        "text": "Have you tested positive for COVID-19 in the past six months?",
+        "text": "Average SAT/ACT Test Scores of Admitted Applicants Over Time",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/6Vzfv/2/",
-            "blurb": ["The majority of respondents to the poll — 83.7% — have not tested positive for COVID-19 in the past six months. In fall 2022, over two-thirds of respondents reported being “not” or “slightly” concerned about the spread of COVID-19 on campus, which represented a slight decrease in COVID-19 concern from spring 2022. "]
+            "slug": "SAT_ACT",
+            "name": "SAT/ACT Scores",
+            "link": "visualisation/13159133",
+            "title": "Average SAT/ACT Test Scores of Admitted Applicants Over Time"
           },
           {
-            "slug": "social_circle",
-            "name": "Social Circle",
-            "link": "https://datawrapper.dwcdn.net/9I2oR/4/"
-          },
-          {
-            "slug": "class_year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/TMyAY/7/"
+            "slug": "score_submit",
+            "name": "Score Submitting",
+            "link": "visualisation/13176639",
+            "title": "**Do we have this?**"
           }
+
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "dual_degree",
         "name": "Dual-Degree Programs",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "PLME Applicants Admitted, Denied for the Class of 2027",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+            "slug": "plme",
+            "name": "PLME 2027",
+            "link": "visualisation/13172678",
+            "title": "PLME Applicants Admitted, Denied for the Class of 2027"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+            "slug": "plme_ot",
+            "name": "PLME Over Time",
+            "link": "visualisation/13161967",
+            "title": "PLME Acceptance Rate, Applicants Over Time"
           },
           {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+            "slug": "risd",
+            "name": "Brown-RISD 2027",
+            "link": "visualisation/13172739",
+            "title": "Brown-RISD Applicants Admitted, Denied for the Class of 2027"
           },
           {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "risd_ot",
+            "name": "Brown-RISD Over Time",
+            "link": "visualisation/13162198",
+            "title": "Brown-RISD Dual Degree Program Acceptance Rate, Applicants Over Time"
           }
         ]
       },
