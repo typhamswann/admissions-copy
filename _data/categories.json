@@ -141,89 +141,144 @@
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "gender",
         "name": "Gender",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "Applicants Admitted and Denied by Gender Over Time",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+            "slug": "applicants_gender",
+            "name": "Applicants by Gender",
+            "link": "visualisation/131610",
+            "title": "Applicants Admitted and Denied by Gender Over Time"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+            "slug": "gender_ot",
+            "name": "Gender over Time",
+            "link": "visualisation/13159307",
+            "title": "Applicants, Admitted Students by Gender Over Time"
           },
           {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+            "slug": "gender_acceptance",
+            "name": "Acceptance Rate",
+            "link": "visualisation/13173076",
+            "title": "Acceptance Rate By Gender for the Class of 2027"
           },
           {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "gender_applicants_ot",
+            "name": "Applicants Over Time",
+            "link": "visualisation/13171846",
+            "title": "Percentage of Applicants Admitted and Denied by Gender"
+          },
+          {
+            "slug": "gender_acceptance_ot",
+            "name": "Acceptance Over Time",
+            "link": "visualisation/13159500",
+            "title": "Acceptance Rate By Gender Over Time"
           }
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "concentrations",
         "name": "Areas of Study",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "Intended Concentrations of Admitted Applicants for the Class of 2027",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+            "slug": "concentrations",
+            "name": "Concentration",
+            "link": "visualisation/13173741",
+            "title": "Intended Concentrations of Admitted Applicants for the Class of 2027"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+            "slug": "concentrations_ot",
+            "name": "Conc. Over Time",
+            "link": "visualisation/13159774",
+            "title": "Intended Concentrations of Admitted Applicants Over Time"
           },
           {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+            "slug": "area_of_study",
+            "name": "Areas of Study",
+            "link": "visualisation/13174585",
+            "title": "Area of Study of Admitted Applicants for the Class of 2027"
           },
           {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "areas_ot",
+            "name": "Areas Over Time",
+            "link": "visualisation/13176726",
+            "title": "Area of Study of Admitted Applicants Over Time"
           }
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "geography",
         "name": "Geography",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "Countries of Admitted International Students",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+            "slug": "international",
+            "name": "International Students",
+            "link": "visualisation/13174653",
+            "title": "International and Domestic Admitted Applicants for the Class of 2027"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
+            "slug": "international_domestic",
+            "name": "International vs. Domestic",
+            "link": "visualisation/13174735",
+            "title": "International and Domestic Admitted Applicants for the Class of 2027"
           },
           {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+            "slug": "international_ot",
+            "name": "Over Time",
+            "link": "visualisation/13176670",
+            "title": "International and Domestic Admitted Applicants Over Time"
           },
           {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "countries_map",
+            "name": "Countries Map",
+            "link": "visualisation/13162733",
+            "title": "Top Countries of Admitted Applicants Over Time"
+          },
+          {
+            "slug": "countries_graph",
+            "name": "Countries",
+            "link": "visualisation/13171966",
+            "title": "Top Countries of Admitted Applicants Over Time, Graphed"
+          },
+          {
+            "slug": "states_ot",
+            "name": "States Over Time",
+            "link": "visualisation/13162663",
+            "title": "Top States of Admitted Applicants Over Time"
+          },
+          {
+            "slug": "rural",
+            "name": "Rural",
+            "link": "visualisation/13174263",
+            "title": "Admitted Rural Applicants for the Class of 2027"
+          },
+          {
+            "slug": "rural_ot",
+            "name": "Rural Over Time",
+            "link": "visualisation/13176695",
+            "title": "Admitted Rural Applicants Over Time"
+          }
+        ]
+      },
+      {
+        "slug": "hs",
+        "name": "High School",
+        "text": "Type of High Schools Admitted Students Attended for the Class of 2027",
+        "broken_down_by": [
+          {
+            "slug": "hs",
+            "name": "High School",
+            "link": "visualisation/13175224",
+            "title": "Type of High Schools Admitted Students Attended for the Class of 2027"
+          },
+          {
+            "slug": "hs_ot",
+            "name": "Over Time",
+            "link": "visualisation/13172538",
+            "title": "Type of High Schools Admitted Students Attended Over Time"
           }
         ]
       },
@@ -233,55 +288,41 @@
         "text": "Have you or would you participate in the Naked Donut Run?",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
+            "slug": "first_gen",
+            "name": "First Gen.",
+            "link": "visualisation/13175166",
+            "title": "First-Generation Admitted Applicants for the Class of 2027"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
-          },
-          {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
-          },
-          {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "first_gen_ot",
+            "name": "Over Time",
+            "link": "visualisation/13172285",
+            "title": "Percentage, Total of Admitted Students Who Identify as First-Generation Over Time"
           }
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "aid",
         "name": "Financial Aid",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "Admitted Applicants Applying for Financial Aid for the Class of 2027",
         "broken_down_by": [
           {
-            "slug": "total",
-            "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/IjsqN/2/",
-            "blurb": ["The NDR has taken place each semester for decades and is one of several <a href=\"https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus\">nudity-related events and traditions</a> on campus. "]
-          },
-          {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/ot9J5/8/"
-          },
-          {
-            "slug": "by_financial-aid",
+            "slug": "aid",
             "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/JDEKd/8/"
+            "link": "visualisation/13175246",
+            "title": "Admitted Applicants Applying for Financial Aid for the Class of 2027"
           },
           {
-            "slug": "by_gender",
-            "name": "Gender Identity",
-            "link": "https://datawrapper.dwcdn.net/FrifR/6/",
-            "blurb": ["The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same."]
+            "slug": "aid_ot",
+            "name": "Over Time",
+            "link": "visualisation/13161735",
+            "title": "Admitted Applicants Applying for Financial Aid Over Time"
+          },
+          {
+            "slug": "percent_aid_ot",
+            "name": "Percent Over Time",
+            "link": "visualisation/13172118",
+            "title": "Percentage Admitted Applicants Applying for Financial Aid Per Year"
           }
         ]
       } 

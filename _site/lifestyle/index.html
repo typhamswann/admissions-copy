@@ -35,7 +35,7 @@
     <section class="section-wrapper"> 
 
         <div class="question-categories-wrapper">
-            <div class="question-categories"><button class='Acceptance Rate Over Time' data-target="highlights" id='highlights'>Highlights</button><button class='Applications Over Time' data-target="acceptance" id='acceptance'>Acceptance Rate</button><button class='Average SAT/ACT Test Scores of Admitted Applicants Over Time' data-target="test_scores" id='test_scores'>Test Scores</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Dual-Degree Programs</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Gender</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Areas of Study</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Geography</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>First-Generation</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Financial Aid</button></div>
+            <div class="question-categories"><button class='Acceptance Rate Over Time' data-target="highlights" id='highlights'>Highlights</button><button class='Applications Over Time' data-target="acceptance" id='acceptance'>Acceptance Rate</button><button class='Average SAT/ACT Test Scores of Admitted Applicants Over Time' data-target="test_scores" id='test_scores'>Test Scores</button><button class='PLME Applicants Admitted, Denied for the Class of 2027' data-target="dual_degree" id='dual_degree'>Dual-Degree Programs</button><button class='Applicants Admitted and Denied by Gender Over Time' data-target="gender" id='gender'>Gender</button><button class='Intended Concentrations of Admitted Applicants for the Class of 2027' data-target="concentrations" id='concentrations'>Areas of Study</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Geography</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>First-Generation</button><button class='Have you or would you participate in the Naked Donut Run?' data-target="ndr" id='ndr'>Financial Aid</button></div>
         </div>
         <div class="main-content-wrapper">
             <div class="question-text"><div class="question-highlights-text" style="display: none;">
@@ -44,12 +44,12 @@
                         <h1 class="graph-title">Applications Over Time</h1>
                     </div><div class="question-test_scores-text" style="display: none;">
                         <h1 class="graph-title">Average SAT/ACT Test Scores of Admitted Applicants Over Time</h1>
-                    </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
-                    </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
-                    </div><div class="question-ndr-text" style="display: none;">
-                        <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
+                    </div><div class="question-dual_degree-text" style="display: none;">
+                        <h1 class="graph-title">PLME Applicants Admitted, Denied for the Class of 2027</h1>
+                    </div><div class="question-gender-text" style="display: none;">
+                        <h1 class="graph-title">Applicants Admitted and Denied by Gender Over Time</h1>
+                    </div><div class="question-concentrations-text" style="display: none;">
+                        <h1 class="graph-title">Intended Concentrations of Admitted Applicants for the Class of 2027</h1>
                     </div><div class="question-ndr-text" style="display: none;">
                         <h1 class="graph-title">Have you or would you participate in the Naked Donut Run?</h1>
                     </div><div class="question-ndr-text" style="display: none;">
@@ -78,29 +78,29 @@
                         </div>
                     <div class="question-test_scores-subdivisions" style="display: none;">
                         <h2 id="breakdown-header">Breakdown</h2><button id="SAT_ACT" class="Average SAT/ACT Test Scores of Admitted Applicants Over Time">SAT/ACT Scores</button>
-                            <button id="social_circle" class="">Social Circle</button>
-                            <button id="class_year" class="">Class Year</button>
+                            <button id="score_submit" class="**Do we have this?**">Score Submitting</button>
                             
                         </div>
-                    <div class="question-ndr-subdivisions" style="display: none;">
-                        <h2 id="breakdown-header">Breakdown</h2><button id="total" class="">Total</button>
-                            <button id="by_class-year" class="">Class Year</button>
-                            <button id="by_financial-aid" class="">Financial Aid</button>
-                            <button id="by_gender" class="">Gender Identity</button>
+                    <div class="question-dual_degree-subdivisions" style="display: none;">
+                        <h2 id="breakdown-header">Breakdown</h2><button id="plme" class="PLME Applicants Admitted, Denied for the Class of 2027">PLME 2027</button>
+                            <button id="plme_ot" class="PLME Acceptance Rate, Applicants Over Time">PLME Over Time</button>
+                            <button id="risd" class="Brown-RISD Applicants Admitted, Denied for the Class of 2027">Brown-RISD 2027</button>
+                            <button id="risd_ot" class="Brown-RISD Dual Degree Program Acceptance Rate, Applicants Over Time">Brown-RISD Over Time</button>
                             
                         </div>
-                    <div class="question-ndr-subdivisions" style="display: none;">
-                        <h2 id="breakdown-header">Breakdown</h2><button id="total" class="">Total</button>
-                            <button id="by_class-year" class="">Class Year</button>
-                            <button id="by_financial-aid" class="">Financial Aid</button>
-                            <button id="by_gender" class="">Gender Identity</button>
+                    <div class="question-gender-subdivisions" style="display: none;">
+                        <h2 id="breakdown-header">Breakdown</h2><button id="applicants_gender" class="Applicants Admitted and Denied by Gender Over Time">Applicants by Gender</button>
+                            <button id="gender_ot" class="Applicants, Admitted Students by Gender Over Time">Gender over Time</button>
+                            <button id="gender_acceptance" class="Acceptance Rate By Gender for the Class of 2027">Acceptance Rate</button>
+                            <button id="gender_applicants_ot" class="Percentage of Applicants Admitted and Denied by Gender">Applicants Over Time</button>
+                            <button id="gender_acceptance_ot" class="Acceptance Rate By Gender Over Time">Acceptance Over Time</button>
                             
                         </div>
-                    <div class="question-ndr-subdivisions" style="display: none;">
-                        <h2 id="breakdown-header">Breakdown</h2><button id="total" class="">Total</button>
-                            <button id="by_class-year" class="">Class Year</button>
-                            <button id="by_financial-aid" class="">Financial Aid</button>
-                            <button id="by_gender" class="">Gender Identity</button>
+                    <div class="question-concentrations-subdivisions" style="display: none;">
+                        <h2 id="breakdown-header">Breakdown</h2><button id="concentrations" class="Intended Concentrations of Admitted Applicants for the Class of 2027">Concentration</button>
+                            <button id="concentrations_ot" class="Intended Concentrations of Admitted Applicants Over Time">Conc. Over Time</button>
+                            <button id="area_of_study" class="Area of Study of Admitted Applicants for the Class of 2027">Areas of Study</button>
+                            <button id="areas_ot" class="Area of Study of Admitted Applicants Over Time">Areas Over Time</button>
                             
                         </div>
                     <div class="question-ndr-subdivisions" style="display: none;">
@@ -238,133 +238,121 @@
                                 
                             </div>
                         
-                            <div class="image-test_scores-social_circle" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/9I2oR/4/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-test_scores-score_submit" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13176639"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-test_scores-social_circle" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                            </div>
-                        
-                            <div class="image-test_scores-class_year" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/TMyAY/7/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-test_scores-class_year" style="display: none;">
+                            <div class="blurb-test_scores-score_submit" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
                     
                         
-                            <div class="image-ndr-total" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/IjsqN/2/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-dual_degree-plme" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13172678"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-total" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                                    <p class="subdivision-blurbs">The NDR has taken place each semester for decades and is one of several <a href="https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus">nudity-related events and traditions</a> on campus. </p>
-                                
-                            </div>
-                        
-                            <div class="image-ndr-by_class-year" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/ot9J5/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-ndr-by_class-year" style="display: none;">
+                            <div class="blurb-dual_degree-plme" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_financial-aid" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/JDEKd/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-dual_degree-plme_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13161967"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_financial-aid" style="display: none;">
+                            <div class="blurb-dual_degree-plme_ot" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_gender" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/FrifR/6/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-dual_degree-risd" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13172739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_gender" style="display: none;">
+                            <div class="blurb-dual_degree-risd" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
-                                    <p class="subdivision-blurbs">The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same.</p>
+                            </div>
+                        
+                            <div class="image-dual_degree-risd_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13162198"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-dual_degree-risd_ot" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
                     
                         
-                            <div class="image-ndr-total" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/IjsqN/2/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-gender-applicants_gender" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/131610"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-total" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                                    <p class="subdivision-blurbs">The NDR has taken place each semester for decades and is one of several <a href="https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus">nudity-related events and traditions</a> on campus. </p>
-                                
-                            </div>
-                        
-                            <div class="image-ndr-by_class-year" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/ot9J5/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-ndr-by_class-year" style="display: none;">
+                            <div class="blurb-gender-applicants_gender" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_financial-aid" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/JDEKd/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-gender-gender_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13159307"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_financial-aid" style="display: none;">
+                            <div class="blurb-gender-gender_ot" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_gender" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/FrifR/6/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-gender-gender_acceptance" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13173076"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_gender" style="display: none;">
+                            <div class="blurb-gender-gender_acceptance" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
-                                    <p class="subdivision-blurbs">The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same.</p>
+                            </div>
+                        
+                            <div class="image-gender-gender_applicants_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13171846"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-gender-gender_applicants_ot" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
+                                
+                            </div>
+                        
+                            <div class="image-gender-gender_acceptance_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13159500"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-gender-gender_acceptance_ot" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
                     
                         
-                            <div class="image-ndr-total" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/IjsqN/2/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-concentrations-concentrations" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13173741"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-total" style="display: none;">
-                                <!-- this assumes the blurb is written as a list of paragraphs -->
-                                
-                                    <p class="subdivision-blurbs">The NDR has taken place each semester for decades and is one of several <a href="https://www.browndailyherald.com/article/2022/10/its-so-brown-nudity-controversy-body-positivity-on-campus">nudity-related events and traditions</a> on campus. </p>
-                                
-                            </div>
-                        
-                            <div class="image-ndr-by_class-year" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/ot9J5/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                            </div>
-                            <div class="blurb-ndr-by_class-year" style="display: none;">
+                            <div class="blurb-concentrations-concentrations" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_financial-aid" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/JDEKd/8/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-concentrations-concentrations_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13159774"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_financial-aid" style="display: none;">
+                            <div class="blurb-concentrations-concentrations_ot" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
-                            <div class="image-ndr-by_gender" style="display: none;">
-                                <div class="flourish-embed flourish-chart" data-src="https://datawrapper.dwcdn.net/FrifR/6/"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <div class="image-concentrations-area_of_study" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13174585"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
-                            <div class="blurb-ndr-by_gender" style="display: none;">
+                            <div class="blurb-concentrations-area_of_study" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
-                                    <p class="subdivision-blurbs">The proportion of female respondents who said they have participated in the Naked Donut Run — 3.2% — is over double the proportion of male respondents who said the same.</p>
+                            </div>
+                        
+                            <div class="image-concentrations-areas_ot" style="display: none;">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/13176726"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="blurb-concentrations-areas_ot" style="display: none;">
+                                <!-- this assumes the blurb is written as a list of paragraphs -->
                                 
                             </div>
                         
