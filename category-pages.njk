@@ -69,7 +69,7 @@ relative_prefix: ".."
                     {% for question in category.questions %}
                         {% for subdivision in question.broken_down_by %}
                             <div class="image-{{ question.slug }}-{{ subdivision.slug }}" style="display: none;">
-                                <script src="{{ subdivision.link }}embed.js"></script>
+                                <div class="flourish-embed flourish-chart" data-src="{{ subdivision.link }}"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                             </div>
                             <div class="blurb-{{ question.slug }}-{{ subdivision.slug }}" style="display: none;">
                                 <!-- this assumes the blurb is written as a list of paragraphs -->
