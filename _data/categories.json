@@ -45,10 +45,17 @@
             "title": "Top Countries of Admitted Applicants Over Time"
           },
           {
-            "slug": "type_hs",
-            "name": "High School",
-            "link": "visualisation/13172538",
-            "title": "Type of High Schools Admitted Students Attended Over Time"
+            "slug": "plme",
+            "name": "PLME",
+            "link": "visualisation/13172678",
+            "title": "PLME Applicants Admitted, Denied for the Class of 2027"
+          },
+
+          {
+            "slug": "risd",
+            "name": "Brown-RISD",
+            "link": "visualisation/13172739",
+            "title": "Brown-RISD Applicants Admitted, Denied for the Class of 2027"
           }
         ]
       },
@@ -104,7 +111,7 @@
             "slug": "score_submit",
             "name": "Score Submitting",
             "link": "visualisation/13176639",
-            "title": "**Do we have this?**"
+            "title": "Admitted Applicants' Submission of SAT/ACT for the Class of 2027"
           }
 
         ]
@@ -148,7 +155,7 @@
           {
             "slug": "applicants_gender",
             "name": "Applicants by Gender",
-            "link": "visualisation/131610",
+            "link": "visualisation/13161110",
             "title": "Applicants Admitted and Denied by Gender Over Time"
           },
           {
@@ -221,7 +228,7 @@
           },
           {
             "slug": "international_domestic",
-            "name": "International vs. Domestic",
+            "name": "International vs. Dom.",
             "link": "visualisation/13174735",
             "title": "International and Domestic Admitted Applicants for the Class of 2027"
           },
@@ -283,9 +290,9 @@
         ]
       },
       {
-        "slug": "ndr",
+        "slug": "gen_one",
         "name": "First-Generation",
-        "text": "Have you or would you participate in the Naked Donut Run?",
+        "text": "First-Generation Admitted Applicants for the Class of 2027",
         "broken_down_by": [
           {
             "slug": "first_gen",

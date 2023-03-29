@@ -79,7 +79,7 @@ div.home {
 }
 
 div.home > div.panel {
-  width: 25rem;
+  width: 35rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,6 +93,11 @@ div.home > div.panel {
 
 div.home > div.panel > img.bear {
   width: 9.375rem;
+}
+
+#title-start{
+  padding:2rem;
+  text-align: center;
 }
 
 div.home > div.panel > img.logo {
