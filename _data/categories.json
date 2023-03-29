@@ -40,7 +40,7 @@
           },
           {
             "slug": "international_countries",
-            "name": "International Countries",
+            "name": "Countries",
             "link": "visualisation/13171966",
             "title": "Top Countries of Admitted Applicants Over Time"
           },
@@ -53,35 +53,39 @@
         ]
       },
       {
-        "slug": "sleep",
+        "slug": "acceptance",
         "name": "Acceptance Rate",
-        "text": "How many hours of sleep do you get a night on average?",
+        "text": "Applications Over Time",
         "broken_down_by": [
           {
-            "slug": "total",
+            "slug": "applicants_vs_admitted",
+            "name": "Applicants",
+            "link": "visualisation/13157918",
+            "title": "Applications Over Time"
+          },
+          {
+            "slug": "acceptance_rate",
             "name": "Total",
-            "link": "https://datawrapper.dwcdn.net/LchSO/3/", 
-            "blurb": ["A plurality of respondents reported getting seven hours of sleep a night on average."]
+            "link": "visualisation/13158845",
+            "title": "Acceptance Rate Over Time"
           },
           {
-            "slug": "by_class-year",
-            "name": "Class Year",
-            "link": "https://datawrapper.dwcdn.net/CquY8/3/"
+            "slug": "admitted_bar",
+            "name": "RD vs. ED (I)",
+            "link": "visualisation/13159021",
+            "title":"ED v. RD Acceptances - Over Time"
           },
           {
-            "slug": "by_financial-aid",
-            "name": "Financial Aid",
-            "link": "https://datawrapper.dwcdn.net/xme4U/3/"
+            "slug": "admitted_rate",
+            "name": "RD vs. ED (II)",
+            "link": "visualisation/13173640",
+            "title":"Regular Decision, Early Decision, and Overall Acceptance Rate for the Class of 2027"
           },
           {
-            "slug": "by_first-generation",
-            "name": "First-Generation",
-            "link": "https://datawrapper.dwcdn.net/6fOIq/4/"
-          },
-          {
-            "slug": "by_varsity",
-            "name": "Varsity",
-            "link": "https://datawrapper.dwcdn.net/OHh3N/6/"
+            "slug": "admit_pie",
+            "name": "RD vs. ED (III)",
+            "link": "visualisation/13172802",
+            "title":" Application Outcomes for the Class of 2027"
           }
         ]
       },

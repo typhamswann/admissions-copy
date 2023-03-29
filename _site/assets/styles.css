@@ -206,6 +206,14 @@ div.home > div.panel > a > div  {
     visibility: none;
 }
 
+.graph-title{
+  position: relative;
+  top:1rem;
+  padding-left: 20rem;
+  padding-top:0rem;
+  padding-bottom:0rem;
+}
+
 .nav-option {
     visibility: none;
     padding: 0 1em;
@@ -405,6 +413,15 @@ footer > p {
   color: var(--footer-text-color)
 }
 
+@media screen and (max-width: 880px) {
+  .graph-title{
+    position: relative;
+    padding-left:0rem;
+    top:0rem;
+    padding-top:0rem;
+    padding-bottom:0rem;
+  }
+}
 
 @media screen and (max-width: 55rem) {
     .section-wrapper {
