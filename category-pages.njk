@@ -49,7 +49,7 @@ relative_prefix: ".."
             <div class="question-text">
                 {%- for question in category.questions -%}
                     <div class="question-{{ question.slug }}-text" style="display: none;">
-                        <h1>{{ question.text }}</h1>
+                        <h1>{{ question.broken_down_by.title }}</h1>
                     </div>
                 {%- endfor -%}
             </div>
@@ -179,7 +179,7 @@ relative_prefix: ".."
         selectedImage = document.querySelector(`.image-${selectedButton}-${selectedSubButton}`)
         selectedImage.style.display = 'block';
 
-        selectedEmbed = selectedImage.getElementsByClassName("datawrapper-script-embed")[0]
+        selectedEmbed = selectedImage.getElementsByClassName("flourish-embed flourish-chart")[0]
         selectedEmbed.style.display = "block"
         document.querySelector(`.blurb-${selectedButton}-${selectedSubButton}`).style.display = 'block';
     }

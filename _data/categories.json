@@ -11,37 +11,44 @@
           {
             "slug": "acceptance_rate",
             "name": "Acceptance Rate",
-            "link": "visualisation/13158845"
+            "link": "visualisation/13158845",
+            "title": "Acceptance Rate Over Time"
           },
           {
             "slug": "applicants_vs_admitted",
-            "name": "Applicants vs. Admitted",
-            "link": "visualisation/13157918"
+            "name": "Applications",
+            "link": "visualisation/13157918",
+            "title": "Applications Over Time"
           },
           {
             "slug": "SAT_ACT",
             "name": "SAT/ACT Scores",
-            "link": "visualisation/13159133"
+            "link": "visualisation/13159133",
+            "title": "Average SAT/ACT Test Scores of Admitted Applicants Over Time"
           },
           {
             "slug": "gender_acceptance",
-            "name": "Acceptance by Gender",
-            "link": "visualisation/13159500"
+            "name": "Gender",
+            "link": "visualisation/13159500",
+            "title": "Acceptance Rate By Gender Over Time"
           },
           {
             "slug": "intended_concentration",
-            "name": "Intended Concentration",
-            "link": "visualisation/13159774"
+            "name": "Concentration",
+            "link": "visualisation/13159774",
+            "title": "Intended Concentrations of Admitted Applicants Over Time"
           },
           {
             "slug": "international_countries",
             "name": "International Countries",
-            "link": "visualisation/13171966"
+            "link": "visualisation/13171966",
+            "title": "Top Countries of Admitted Applicants Over Time"
           },
           {
             "slug": "type_hs",
-            "name": "Type of High School",
-            "link": "visualisation/13172538"
+            "name": "High School",
+            "link": "visualisation/13172538",
+            "title": "Type of High Schools Admitted Students Attended Over Time"
           }
         ]
       },

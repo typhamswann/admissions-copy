@@ -9,6 +9,19 @@ data: categories
             <img id="navbar-logo-img" src="/images/logo-black.png"/>
         </a>
     </div>
+    <ul id="nav-options">
+        {%- for currCategory in categories -%}
+            <li
+                {% if category.name === currCategory.name %}
+                    class="nav-option active"
+                {% else %}
+                    class="nav-option"
+                {% endif %}
+            >
+                <a href="../{{currCategory.slug}}">{{ currCategory.name }}</a>
+            </li>
+        {%- endfor -%}
+    </ul>
     <div id="nav-links">
         <a id="about-link" href="../about">About</a>
         <a id="story-link" href="https://www.browndailyherald.com/article/2023/03/the-heralds-spring-2023-poll">
