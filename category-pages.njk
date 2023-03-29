@@ -49,7 +49,8 @@ relative_prefix: ".."
             <div class="question-text">
                 {%- for question in category.questions -%}
                     <div class="question-{{ question.slug }}-text" style="display: none;">
-                        <h1>{{ question.broken_down_by.title }}</h1>
+                        <h1 class="graph-title">{{ question.text }}</h1>
+
                     </div>
                 {%- endfor -%}
             </div>
@@ -59,7 +60,7 @@ relative_prefix: ".."
                         <div class="question-{{ question.slug }}-subdivisions" style="display: none;">
                         <h2 id="breakdown-header">Breakdown</h2>
                             {%- for subdivision in question.broken_down_by -%}
-                                <button id="{{ subdivision.slug }}">{{ subdivision.name }}</button>
+                                <button id="{{ subdivision.slug }}" class="{{ subdivision.title }}">{{ subdivision.name }}</button>
                             {% endfor %}
                         </div>
                     {% endfor %}
@@ -166,12 +167,16 @@ relative_prefix: ".."
         selectedSubButton = subButtons[0].id;
         updateImage()
     }
-    handleSubButtonClick = (button) => {
-        selectedSubButton = button.id;
-        subButtons.forEach((b) => b.classList.remove('selected'));
-        button.classList.add('selected');
-        updateImage()
-    }
+handleSubButtonClick = (button) => {
+    selectedSubButton = button.id;
+    selectedName = button.className;
+    subButtons.forEach((b) => b.classList.remove('selected'));
+    button.classList.add('selected');
+    updateImage();
+    console.log(selectedName)
+    updateText(selectedName)
+}
+
     updateImage = () => {
         graphics.forEach((div) => {
             div.style.display = 'none'
@@ -183,6 +188,13 @@ relative_prefix: ".."
         selectedEmbed.style.display = "block"
         document.querySelector(`.blurb-${selectedButton}-${selectedSubButton}`).style.display = 'block';
     }
+
+    updateText = (title) => {
+        const graphTitle = document.querySelector('.graph-title');
+        graphTitle.innerHTML = title
+    }
+
+
 </script>
 
 {# <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script> #}
